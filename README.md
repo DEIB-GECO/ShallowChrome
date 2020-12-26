@@ -8,8 +8,7 @@ In order to run the ShallowChrome model fitting and analyses, the following libr
 - scipy
 - jupyter
 
-We suggest installing them within a python virtual environment via pip.
-
+We suggest installing them within a python virtual environment via pip. 
 Paper results can be reproduced with the following versions on `Python 2.7.15`:
 ```
 matplotlib==2.2.4      
