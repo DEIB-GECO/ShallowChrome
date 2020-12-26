@@ -1,7 +1,7 @@
 # shallow-chrome
 
 ## Requirements
-In order to run theh ShallowChrome model fitting and analyses, the following libraries are required:
+In order to run the ShallowChrome model fitting and analyses, the following libraries are required:
 - matplotlib
 - numpy
 - scikit
