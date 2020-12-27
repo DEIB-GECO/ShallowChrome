@@ -268,6 +268,8 @@ def draw_specific_pattern(
         plt.show()
     plt.close()
 
+    return
+
     
 def extract_emissions(emission_path, delimiter='\t'):
     
