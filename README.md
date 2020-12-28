@@ -17,7 +17,7 @@ ShallowChrome/
 |   LICENSE
 |   .gitignore
 |-- notebooks/
-|   |   utils.py
+|   |   notebooks/utils.py
 |   |   notebooks/model fitting.ipynb
 |   |   notebooks/model inspection.ipynb
 |   |   notebooks/model validation.ipynb
@@ -29,12 +29,12 @@ ShallowChrome/
 - `README.md` this file
 - `LICENSE` MIT license file
 - `.gitignore` standard .gitignore file for Python projects
-- `notebooks/` folder containing IPython notebooks to run the modeling pipeline
+- `notebooks/` folder containing Python notebooks to run the modeling pipeline
 - `notebooks/utils.py` core Python routines called from within the notebooks to perform modeling and analyses
-- `notebooks/model fitting.ipynb` notebook where ShallowChrome models are fitted to solve binary classification of gene transcriptional state; reproduces Tables 2 and S1 and Figure 2 of the paper
-- `notebooks/model inspection.ipynb` notebook to inspect ShallowChrome models and to extract and plot gene-wise regulative patterns; reproduces Figure 3 of the paper
-- `notebooks/model validation.ipynb` notebook to compare ShallowChrome regulative patterns with ChromHMM chromatin state emissions; reproduces Figure 4 of the paper
-- `notebooks/model fitting - valley thresholding.ipynb` here the classification task is solved with an alternative approach to define target classes; reproduces Table S4 and Figures S2, S3 of the paper
+- `notebooks/model_fitting.ipynb` notebook where ShallowChrome models are fitted to solve binary classification of gene transcriptional state; reproduces Tables 2 and S1 and Figure 2 of the paper
+- `notebooks/model_inspection.ipynb` notebook to inspect ShallowChrome models and to extract and plot gene-wise regulative patterns; reproduces Figure 3 of the paper
+- `notebooks/model_validation.ipynb` notebook to compare ShallowChrome regulative patterns with ChromHMM chromatin state emissions; reproduces Figure 4 of the paper
+- `notebooks/model fitting - valley thresholding.ipynb` here the classification task is solved with an alternative approach to define target classes; reproduces Table S4 and Figures S2 and S3 of the paper
 - `scores/` default folder where numerical results from the modeling pipeline are stored
 - `scores/DeepChrome_scores.txt` test scores from the DeepChrome model (Singh et al., 2016)
 
