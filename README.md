@@ -58,10 +58,10 @@ scipy==1.2.2
 ## Reproducing paper results
 1. Download the pre-processed data from [here](https://drive.google.com/drive/folders/1iJugXgMrtt5pOm2azPhWsIBuxx5TgnuD?usp=sharing);
 2. Uncompress the downloaded ".zip" file here in this folder – or wherever you prefer;
-3. Run the `notebooks/model fitting.ipynb` notebook to reproduce Tables 2, S1 and Figure 2 of the paper;
+3. Run the `notebooks/model fitting.ipynb` notebook to reproduce Tables 2 and S1 and Figure 2 of the paper;
 4. Run the `notebooks/model inspection.ipynb` notebook to reproduce Figure 3 of the paper;
 5. Run the `notebooks/model inspection.ipynb` notebook with variable `target_only` set to `False`: this will perform model selection and fitting for _all_ epigenomes over the 'standard' DeepChrome split, dumping all fitted models to disk;
 6. Run the `notebooks/model validation.ipynb` notebook to reproduce Figure 4 of the paper;
-7. Run the `notebooks/model fitting - valley thresholding.ipynb` notebook to reproduce Table S4 and Figures S2, S3 of the paper.
+7. Run the `notebooks/model fitting - valley thresholding.ipynb` notebook to reproduce Table S4 and Figures S2 and S3 of the paper.
 
 NB: If you have not placed the preprocessed data in this folder, then simply change variable `data_base_path` in the notebooks to match your data location.
