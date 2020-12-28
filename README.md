@@ -6,7 +6,8 @@ This repository contains the implementation of the `ShallowChrome` modeling pipe
 `ShallowChrome` is a novel computational pipeline for accurate and fully interpretable modeling of epigenetic gene transcriptional regulation operated by Histone Mark (HM) modifications. `ShallowChrome` leverages on the procedure of 'peak calling' to retrieve gene-wise, significant and dynamically located HM features that can strongly predict the transcriptional state of genes. In our modeling pipeline we:
 - Fit logistic regression models on these extracted features to solve the task of binary classification of gene transcriptional state over 56 cell-types from the REMC database;
 - Analyse and rigorously interpret the obtained models by extracting insightful gene-specific regulative patterns;
-- Compare the extracted patterns with the characteristic chromatin state emissions from ChromHMM (Ernst et al., 2012), showing that `ShallowChrome` is able to coherently rank groups of chromatin states w.r.t. their transcriptional activity.
+- Compare the extracted patterns with the characteristic chromatin state emissions from ChromHMM (Ernst et al., 2012), showing that `ShallowChrome` is able to coherently rank groups of chromatin states w.r.t. their transcriptional activity. 
+
 More on how to replicate paper results is in the following.
 
 ## Structure
